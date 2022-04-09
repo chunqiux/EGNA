@@ -1,5 +1,5 @@
 # EGNA
-An Empirical graph neural network for protein-ligand binding affinity prediction
+An empirical graph neural network for protein-ligand binding affinity prediction
 
 
 ## Preparation
