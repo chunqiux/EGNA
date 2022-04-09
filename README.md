@@ -10,7 +10,7 @@ At first, download the source code of EGNA from GitHub:
     $ git clone https://github.com/chunqiux/EGNA.git
 
 ### Install and activate Python3 environment
-EGNA is implemented with Python3.7. We recommend you to use Anaconda to install the dependencies of 
+EGNA is implemented with Python3.7. We recommend you to use Anaconda to install the dependencies of
 EGNA. Anaconda can be downloaded [here](https://www.anaconda.com/products/distribution).
 
 After installing anaconda, create and activate the virtual environment as follows:
@@ -40,4 +40,4 @@ means the path of ligand file is 'ligand.mol2' and '-d' is used to designate the
 sequence database for HHblits. Other options can be found by '-h'.
 
 ## License
-Our project is under [Apache License]().
+Our project is under [Apache License](https://github.com/chunqiux/EGNA/blob/main/LICENSE).
