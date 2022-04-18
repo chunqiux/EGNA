@@ -86,6 +86,6 @@ if __name__ == "__main__":
 
     if args.output != "":
         with open(args.output, "w") as of:
-            of.write(mean_pred[0])
+            of.write("{:.2f}".format(float(mean_pred[0])))
 
     shutil.rmtree(TMP_DATA_DIR)
