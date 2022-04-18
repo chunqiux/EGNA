@@ -64,7 +64,7 @@ def parse_argument():
     parser.add_argument("--hhblits", type=str, default="hhblits", help='The path of hhblits program')
     parser.add_argument("-d", "--database", type=str, help="The path of the sequence database for hhblits")
     parser.add_argument("-u", "--cpu", type=int, default=4, help="The number of cpu cores used for hhblits")
-    parser.add_argument("-o" "--output", type=str, default="", help="The path of the output file")
+    parser.add_argument("-o", "--output", type=str, default="", help="The path of the output file")
     return parser.parse_args()
 
 
